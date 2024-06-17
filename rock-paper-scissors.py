@@ -4,10 +4,11 @@ ans='y'
 while ans=='y':
     computer=random.choice(options)
     player=input("enter a choice from:{rock,paper,scissors}")
-    print(computer)
     if player not in options:
-          print("enter a valid choice")
+          print("ENTER A VALID CHOICE")
     else :
+            print(computer,'is the choice of computer')
+
         if player==computer:
             print("it's a draw")
         elif player=="rock" and computer=="scissors":
@@ -19,6 +20,7 @@ while ans=='y':
         else:
             print("you lost")
         ans=input("wanna play again:y/n")
+        print("THANKS FOR PLAYING")
             
     
                 
