@@ -2,7 +2,7 @@ ans='y'
 total=0
 item=[]
 price=[]
-n=1
+n=0
 while ans=='y':
     i=input("enter item names bought:")
     item.append(i)
